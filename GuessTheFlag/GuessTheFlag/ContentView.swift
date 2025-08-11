@@ -36,7 +36,7 @@ struct ContentView: View {
                 ],
                 center: .top,
                 startRadius: 200,
-                endRadius: 600
+                endRadius: 500
             )
             .ignoresSafeArea()
             VStack(spacing: 100) {
@@ -63,7 +63,6 @@ struct ContentView: View {
                         }
                     }
                     VStack {
-
                         Text("Score: \(score)")
                             .foregroundStyle(.white)
                             .padding(.bottom, 5)
